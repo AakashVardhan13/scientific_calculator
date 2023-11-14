@@ -9,7 +9,7 @@ public class Main {
     // private static final Logger logger = LogManager.getLogger(Main.class);
     public static int add(int x, int y){
 
-        return x + y;
+        return x - y;
     }
 
     public static int sub(int x, int y){
@@ -33,7 +33,7 @@ public class Main {
         int a1,a2,s1,s2,m1,m2,d1,d2;
         boolean flag = true;
 
-        while (flag){
+        while(flag){
 
             System.out.println("-------Welcome to Calculator------");
             System.out.println("What do you want to do?");
